@@ -28,11 +28,9 @@ interface BaseChatProps {
 }
 
 const EXAMPLE_PROMPTS = [
-  { text: 'Build a todo app in React using Tailwind' },
-  { text: 'Build a simple blog using Astro' },
-  { text: 'Create a cookie consent form using Material UI' },
-  { text: 'Make a space invaders game' },
-  { text: 'How do I center a div?' },
+  { text: 'Make a garage system with a cool looking UI' },
+  { text: 'Build an armoury script with Discord Locked Permissions' },
+  { text: 'Make me an advent calendar with daily login rewards' }
 ];
 
 const TEXTAREA_MIN_HEIGHT = 76;
@@ -130,7 +128,7 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                       minHeight: TEXTAREA_MIN_HEIGHT,
                       maxHeight: TEXTAREA_MAX_HEIGHT,
                     }}
-                    placeholder="How can Bolt help you today?"
+                    placeholder="What can FiveAI make you today?"
                     translate="no"
                   />
                   <ClientOnly>
